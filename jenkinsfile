@@ -1,5 +1,4 @@
-pipeline {
-     agent any
+node {
 
     stage('Preparation') {
         catchError(buildResult: 'SUCCESS') {
