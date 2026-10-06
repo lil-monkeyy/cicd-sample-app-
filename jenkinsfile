@@ -7,9 +7,9 @@ node {
         }
     }
     stage('Build') {
-        build 'BuildSampleApp'
+        build job: 'BuildSampleApp'
     }
     stage('Results') {
-        build 'TestSampleApp'
+        build job: 'TestSampleApp'
     }
 }
