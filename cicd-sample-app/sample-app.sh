@@ -1,9 +1,9 @@
 #!/bin/bash
 set -euo pipefail
 
-#mkdir tempdir
-#mkdir tempdir/templates
-#mkdir tempdir/static
+mkdir tempdir
+mkdir tempdir/templates
+mkdir tempdir/static
 
 cp ./cicd-sample-app/sample_app.py tempdir/.
 cp -r ./cicd-sample-app/templates/* tempdir/templates/.
